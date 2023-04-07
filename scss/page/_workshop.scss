@@ -38,3 +38,79 @@
     background-color: #0e0d11;
   }
 }
+.topcollectiontop {
+  .Topinfo {
+    h1 {
+      @include textdesgin(120px, 700);
+      span {
+        @include text_yellow_desgin();
+      }
+    }
+  }
+  .topbtn {
+    button {
+      padding: 12px 30px;
+      font-weight: 500;
+      display: inline-flex;
+      text-align: center;
+      justify-content: center;
+      background-color: #cef54b;
+      border: none;
+      border-radius: 8px;
+    }
+  }
+}
+.card_gallery {
+  height: 220px;
+
+  img {
+    width: 100%;
+    display: block;
+    height: 100%;
+  }
+}
+
+.gallery_img {
+  height: 80px;
+  img {
+    width: 100%;
+  }
+}
+
+.card_slider {
+  .one {
+    width: 32%;
+    height: 80px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+  }
+}
+
+.cardTop {
+  transform: translateY(20px);
+  .item {
+    width: 30%;
+  }
+  .topinfo {
+    h1 {
+      @include textdesgin(15px, 300);
+    }
+  }
+  .img {
+    width: 80px;
+    height: 80px;
+
+    img {
+      height: 100%;
+      overflow: hidden;
+      border-radius: 50%;
+      border: 6px solid #15141a;
+    }
+  }
+}

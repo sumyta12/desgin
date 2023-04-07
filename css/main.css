@@ -406,4 +406,80 @@ i {
 }
 .workshop_cart:hover {
   background-color: #0e0d11;
+}
+
+.topcollectiontop .Topinfo h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: #fff;
+}
+.topcollectiontop .Topinfo h1 span {
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px #cef54b;
+}
+.topcollectiontop .topbtn button {
+  padding: 12px 30px;
+  font-weight: 500;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #cef54b;
+  border: none;
+  border-radius: 8px;
+}
+
+.card_gallery {
+  height: 220px;
+}
+.card_gallery img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.gallery_img {
+  height: 80px;
+}
+.gallery_img img {
+  width: 100%;
+}
+
+.card_slider .one {
+  width: 32%;
+  height: 80px;
+}
+.card_slider .one img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cardTop {
+  transform: translateY(20px);
+}
+.cardTop .item {
+  width: 30%;
+}
+.cardTop .topinfo h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+}
+.cardTop .img {
+  width: 80px;
+  height: 80px;
+}
+.cardTop .img img {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 6px solid #15141a;
 }/*# sourceMappingURL=main.css.map */
