@@ -1,0 +1,132 @@
+#playercard {
+  .container {
+    .playercard_Wrapper {
+      .row {
+        div {
+          .play_cart_Design {
+            @include main-img(100%, 650px, 200px);
+            position: relative;
+            img {
+              position: relative;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+            .play_text_el {
+              position: absolute;
+              top: 10%;
+              left: 35%;
+              transform: translateY(10%);
+              z-index: 9999;
+              h1 {
+                @include textdesgin(14px, 300);
+              }
+              p {
+                @include textdesgin(8px, 300);
+              }
+            }
+          }
+          .marginclass {
+            margin-top: 180px;
+          }
+          .w_el {
+            h1 {
+              margin-left: 40px;
+              padding-bottom: 200px;
+              @include textdesgin(14px, 300);
+            }
+          }
+          .img-el {
+            top: 24%;
+            left: 22%;
+          }
+          .yotube-click {
+            @include main-img(250px, 180px, 10px);
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#NewArrival {
+  .button_style {
+    button {
+      cursor: pointer;
+      background-color: #1d1c24;
+      padding: 12px 30px 12px 20px;
+      border-radius: 5px;
+      margin: 0 10px;
+      text-transform: capitalize;
+      border: none;
+      color: #fff;
+      i {
+        margin-right: 5px;
+        color: #000;
+      }
+    }
+
+    .active {
+      background-color: #cef54b;
+      color: #000;
+    }
+  }
+}
+i {
+  color: #cef54b;
+}
+.cards_el {
+  border: 1px solid rgba(255, 255, 255, 0.1333333333);
+  border-radius: 5px;
+  display: block;
+  color: white;
+  .top_info {
+    padding: 10px;
+  }
+  .img_cover {
+    height: 270px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+    a {
+      position: absolute;
+      top: 50%;
+      z-index: 9999;
+      background-color: #cef54b;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      text-decoration: none;
+      padding: 10px 10px;
+      text-transform: capitalize;
+      span {
+        i {
+          color: black;
+        }
+        color: #000;
+      }
+    }
+  }
+  .info {
+    padding: 25px;
+    small {
+      color: white;
+      opacity: 0.5;
+      span {
+        color: #cef54b;
+      }
+    }
+  }
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    border: 1px solid #cef54b;
+  }
+  &:hover .img_cover a {
+    opacity: 1;
+  }
+}

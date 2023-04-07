@@ -1,0 +1,21 @@
+@mixin textdesgin($fs, $fw, $bc: #fff) {
+  font-family: "Inter", sans-serif;
+  font-size: $fs;
+  font-weight: $fw;
+  color: $bc;
+}
+@mixin main-img($w, $h, $b) {
+  width: $w;
+  height: $h;
+  border-radius: $b;
+  overflow: hidden;
+}
+
+@mixin text_yellow_desgin(){
+    font-family: "Inter", sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1px #cef54b;
+  
+}

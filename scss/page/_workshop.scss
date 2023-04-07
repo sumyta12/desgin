@@ -1,0 +1,40 @@
+#worksStart {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.workshopbottom {
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+.workshopTop {
+  h1 {
+    @include textdesgin(120px, 700);
+    span {
+      @include text_yellow_desgin();
+    }
+  }
+}
+.workshop_cart {
+  padding: 40px;
+  text-align: center;
+  display: block;
+  border-top: 1px solid transparent;
+  border-radius: 10px;
+  color: #fff;
+
+  .img {
+    height: 80px;
+    img {
+      height: 100%;
+    }
+  }
+  .info h6 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  &:hover {
+    background-color: #0e0d11;
+  }
+}

@@ -1,0 +1,45 @@
+@import "./../base/mixin/textdesgin";
+nav {
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.0666666667);
+  background-color: #15141a !important;
+  .container {
+    .navbar-brand {
+      width: 280px;
+      padding: 30px 50px 30px 30px;
+      border-inline-end: 1px solid rgba(255, 255, 255, 0.0666666667);
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.fromdesign {
+  background-color: #1a191e !important;
+  border-radius: 5px !important;
+  max-width: 280px !important;
+  border: 0;
+  padding: 15px 15px 15px 45px !important;
+  color: #fff;
+  i {
+    color: #fff;
+  }
+  .formintput {
+    background-color: #1a191e;
+    border: none;
+    color: #fff;
+  }
+}
+.ul_li_el{
+  li{
+    a{
+      color: #fff;
+      opacity: 0.5;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}

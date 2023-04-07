@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #15141a !important;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  line-height: 0.8;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1240px !important;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.0666666667);
+  background-color: #15141a !important;
+}
+nav .container .navbar-brand {
+  width: 280px;
+  padding: 30px 50px 30px 30px;
+  -webkit-border-end: 1px solid rgba(255, 255, 255, 0.0666666667);
+          border-inline-end: 1px solid rgba(255, 255, 255, 0.0666666667);
+}
+nav .container .navbar-brand img {
+  width: 100%;
+}
+
+.fromdesign {
+  background-color: #1a191e !important;
+  border-radius: 5px !important;
+  max-width: 280px !important;
+  border: 0;
+  padding: 15px 15px 15px 45px !important;
+  color: #fff;
+}
+.fromdesign i {
+  color: #fff;
+}
+.fromdesign .formintput {
+  background-color: #1a191e;
+  border: none;
+  color: #fff;
+}
+
+.ul_li_el li a {
+  color: #fff;
+  opacity: 0.5;
+}
+.ul_li_el li a:hover {
+  color: #fff;
+}
+
+#herosection {
+  position: relative;
+  padding-top: 150px;
+}
+#herosection .container .hero_section_wrapper {
+  text-align: center;
+}
+#herosection .container .hero_section_wrapper .info .discover-text {
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: #fff;
+}
+#herosection .container .hero_section_wrapper .info .line-title {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+#herosection .container .hero_section_wrapper .info .line-title .yellow_text {
+  width: 70%;
+}
+#herosection .container .hero_section_wrapper .info .line-title .yellow_text p {
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px #cef54b;
+}
+#herosection .container .hero_section_wrapper .info .line-title .small_text {
+  width: 30%;
+}
+#herosection .container .hero_section_wrapper .info .line-title .small_text p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.5;
+  text-align: start;
+  line-height: 1.7;
+}
+#herosection .container .hero_section_wrapper .info .assest-text {
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#playercard .container .playercard_Wrapper .row div .play_cart_Design {
+  width: 100%;
+  height: 650px;
+  border-radius: 200px;
+  overflow: hidden;
+  position: relative;
+}
+#playercard .container .playercard_Wrapper .row div .play_cart_Design img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#playercard .container .playercard_Wrapper .row div .play_cart_Design .play_text_el {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  transform: translateY(10%);
+  z-index: 9999;
+}
+#playercard .container .playercard_Wrapper .row div .play_cart_Design .play_text_el h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+#playercard .container .playercard_Wrapper .row div .play_cart_Design .play_text_el p {
+  font-family: "Inter", sans-serif;
+  font-size: 8px;
+  font-weight: 300;
+  color: #fff;
+}
+#playercard .container .playercard_Wrapper .row div .marginclass {
+  margin-top: 180px;
+}
+#playercard .container .playercard_Wrapper .row div .w_el h1 {
+  margin-left: 40px;
+  padding-bottom: 200px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+#playercard .container .playercard_Wrapper .row div .img-el {
+  top: 24%;
+  left: 22%;
+}
+#playercard .container .playercard_Wrapper .row div .yotube-click {
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#playercard .container .playercard_Wrapper .row div .yotube-click img {
+  width: 100%;
+}
+
+#NewArrival .button_style button {
+  cursor: pointer;
+  background-color: #1d1c24;
+  padding: 12px 30px 12px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  text-transform: capitalize;
+  border: none;
+  color: #fff;
+}
+#NewArrival .button_style button i {
+  margin-right: 5px;
+  color: #000;
+}
+#NewArrival .button_style .active {
+  background-color: #cef54b;
+  color: #000;
+}
+
+i {
+  color: #cef54b;
+}
+
+.cards_el {
+  border: 1px solid rgba(255, 255, 255, 0.1333333333);
+  border-radius: 5px;
+  display: block;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+.cards_el .top_info {
+  padding: 10px;
+}
+.cards_el .img_cover {
+  height: 270px;
+  overflow: hidden;
+}
+.cards_el .img_cover img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cards_el .img_cover a {
+  position: absolute;
+  top: 50%;
+  z-index: 9999;
+  background-color: #cef54b;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  text-decoration: none;
+  padding: 10px 10px;
+  text-transform: capitalize;
+}
+.cards_el .img_cover a span {
+  color: #000;
+}
+.cards_el .img_cover a span i {
+  color: black;
+}
+.cards_el .info {
+  padding: 25px;
+}
+.cards_el .info small {
+  color: white;
+  opacity: 0.5;
+}
+.cards_el .info small span {
+  color: #cef54b;
+}
+.cards_el:hover {
+  border: 1px solid #cef54b;
+}
+.cards_el:hover .img_cover a {
+  opacity: 1;
+}
+
+#BestSellers {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+#BestSellers .BestSellersTop p {
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: #fff;
+}
+#BestSellers .BestSellersTop p span {
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px #cef54b;
+}
+
+.feature-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #100f14;
+  margin-top: 30px;
+  border: 1px solid #16151b;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.feature-card .img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.feature-card .img img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.feature-card .info h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+.feature-card .info p {
+  color: white;
+  opacity: 0.5;
+}
+.feature-card .info p span {
+  color: #cef54b;
+}
+.feature-card:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  border: 1px solid #cef54b;
+  border-radius: 8px;
+}
+.feature-card:hover::before {
+  content: "";
+  position: absolute;
+  width: 85%;
+  height: 37%;
+  top: -15px;
+  border: 1px solid #cef54b;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+#auto_slider {
+  background-color: #cef54b;
+  padding: 20px 0;
+}
+#auto_slider .slider_wrapper .slidertext {
+  transition: all 0.4s ease-in-out;
+}
+#auto_slider .slider_wrapper .slidertext i {
+  color: rgb(31, 25, 15);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#auto_slider .slider_wrapper .slidertext span {
+  font-size: 60px;
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+  text-transform: uppercase;
+}
+#auto_slider .slider_wrapper .slidertext:hover span {
+  text-shadow: -6px -5px 0 #000;
+}
+
+#worksStart {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.workshopbottom {
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+
+.workshopTop h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: #fff;
+}
+.workshopTop h1 span {
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px #cef54b;
+}
+
+.workshop_cart {
+  padding: 40px;
+  text-align: center;
+  display: block;
+  border-top: 1px solid transparent;
+  border-radius: 10px;
+  color: #fff;
+}
+.workshop_cart .img {
+  height: 80px;
+}
+.workshop_cart .img img {
+  height: 100%;
+}
+.workshop_cart .info h6 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.workshop_cart:hover {
+  background-color: #0e0d11;
+}/*# sourceMappingURL=main.css.map */

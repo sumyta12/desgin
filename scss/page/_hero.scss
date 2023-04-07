@@ -1,0 +1,38 @@
+#herosection {
+  position: relative;
+  padding-top: 150px;
+  .container {
+    .hero_section_wrapper {
+      text-align: center;
+      .info {
+        .discover-text {
+          @include textdesgin(120px, 700);
+        }
+        .line-title {
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          .yellow_text {
+            width: 70%;
+            p {
+              @include textdesgin(120px, 700, transparent);
+              -webkit-text-stroke: 1px #cef54b;
+            }
+          }
+          .small_text {
+            width: 30%;
+            p {
+              @include textdesgin(18px, 300, #fff);
+              opacity: 0.5;
+              text-align: start;
+              line-height: 1.7;
+            }
+          }
+        }
+        .assest-text {
+          @include textdesgin(120px, 700);
+        }
+      }
+    }
+  }
+}
