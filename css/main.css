@@ -77,6 +77,22 @@ nav .container .navbar-brand img {
 .ul_li_el li a:hover {
   color: #fff;
 }
+.ul_li_el li button {
+  margin-left: 10px;
+  padding: 12px 30px;
+  font-weight: 500;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #cef54b;
+  border: none;
+  border-radius: 8px;
+}
+.ul_li_el li button i {
+  color: #15141a;
+  margin-right: 10px;
+  margin-top: 5px;
+}
 
 #herosection {
   position: relative;
@@ -482,4 +498,74 @@ i {
   overflow: hidden;
   border-radius: 50%;
   border: 6px solid #15141a;
+}
+
+#Footer {
+  margin-top: 220px;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+#Footer .footerWrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 130px;
+  border-bottom: 1px solid #eee;
+}
+#Footer .footerWrapper .footer_sites_one {
+  width: 50%;
+  color: white;
+}
+#Footer .footerWrapper .footer_sites_one .img {
+  width: 60%;
+}
+#Footer .footerWrapper .footer_sites_one .img img {
+  width: 100%;
+}
+#Footer .footerWrapper .footer_sites_one .info {
+  width: 60%;
+}
+#Footer .footerWrapper .footer_sites_one .info p {
+  line-height: 1.7;
+}
+#Footer .footerWrapper .footer_sites_two {
+  width: 20%;
+}
+#Footer .footerWrapper .footer_sites_two .footertwoinfo h2 {
+  color: #fff;
+  padding-left: 20px;
+}
+#Footer .footerWrapper .footer_sites_two .footertwoinfo ul li {
+  line-height: 1.7;
+}
+#Footer .footerWrapper .footer_sites_two .footertwoinfo ul li a {
+  color: #fff;
+}
+#Footer .footerWrapper .footer_sites_three {
+  width: 20%;
+}
+#Footer .footerWrapper .footer_sites_three .footertwoinfo h2 {
+  color: #fff;
+  padding-left: 20px;
+}
+#Footer .footerWrapper .footer_sites_three .footertwoinfo ul li {
+  line-height: 1.7;
+}
+#Footer .footerWrapper .footer_sites_three .footertwoinfo ul li a {
+  color: #fff;
+}
+#Footer .footerWrapper .footer_sites_four {
+  width: 20%;
+}
+#Footer .footerWrapper .footer_sites_four .footertwoinfo h2 {
+  color: #fff;
+  padding-left: 20px;
+}
+#Footer .footerWrapper .footer_sites_four .footertwoinfo ul li {
+  line-height: 1.7;
+}
+#Footer .footerWrapper .footer_sites_four .footertwoinfo ul li a {
+  color: #fff;
+}
+#Footer span {
+  color: #cef54b;
 }/*# sourceMappingURL=main.css.map */

@@ -38,6 +38,7 @@
     background-color: #0e0d11;
   }
 }
+
 .topcollectiontop {
   .Topinfo {
     h1 {
@@ -49,14 +50,7 @@
   }
   .topbtn {
     button {
-      padding: 12px 30px;
-      font-weight: 500;
-      display: inline-flex;
-      text-align: center;
-      justify-content: center;
-      background-color: #cef54b;
-      border: none;
-      border-radius: 8px;
+      @include buttondesign();
     }
   }
 }
