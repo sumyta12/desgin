@@ -123,6 +123,7 @@ const feedbackpeople = [
 window.addEventListener("DOMContentLoaded", function () {
   cardistDisplay(cards_items);
   feedbackpeopleDisplay(feedbackpeople);
+  buttonDisplay(cards_items);
 });
 function feedbackpeopleDisplay(items) {
   const dispay = items
@@ -210,13 +211,32 @@ function buttonDisplay(items) {
   const btnitems = new_array
     .map(function (item) {
       return `
-    <button>
-    <i class="fa-sharp fa-solid fa-star"></i>${item}
-    </button>
+        <button class='buttonel' data-category=${item}>
+        <i class="fa-sharp fa-solid fa-star"></i>${item}
+        </button>
     `;
     })
     .join(" ");
   const button_style = document.querySelector(".button_style");
   button_style.innerHTML = btnitems;
+  const button_seletetor = document.querySelectorAll(".buttonel");
+  button_seletetor.forEach(function (item) {
+    item.addEventListener("click", function (e) {
+      console.log(item.parentElement.children);
+       
+      
+      e.target.classList.toggle("active");
+      const selectedata = items.filter(function (datas) {
+        if (datas.category.includes(item.dataset.category)) {
+          return item;
+        }
+      });
+
+      if (item.dataset.category === "All") {
+        cardistDisplay(items);
+      } else {
+        cardistDisplay(selectedata);
+      }
+    });
+  });
 }
-buttonDisplay(cards_items);
