@@ -222,7 +222,7 @@ function buttonDisplay(items) {
   const button_seletetor = document.querySelectorAll(".buttonel");
   button_seletetor.forEach(function (item) {
     item.addEventListener("click", function (e) {
-      console.log(item.parentElement.children);
+      console.log(  e.target.parentNode );
        
       
       e.target.classList.toggle("active");

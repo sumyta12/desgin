@@ -1,0 +1,83 @@
+@media (min-width: 320px) and (max-width: 575px) {
+  nav .container .navbar-brand {
+    width: 197px;
+    padding: 30px 8px 7px 8px;
+  }
+  .hero_section_wrapper {
+    text-align: start !important;
+  }
+  .discover-text {
+    width: auto !important;
+    font-size: 60px !important;
+  }
+  #herosection {
+    position: relative;
+    padding-top: 40px;
+  }
+  .line-title {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .yellow_text {
+    width: 100% !important;
+  }
+  .small_text {
+    width: 100% !important;
+  }
+  #herosection
+    .container
+    .hero_section_wrapper
+    .info
+    .line-title
+    .yellow_text
+    p {
+    font-size: 91px;
+    font-weight: 700;
+  }
+  #herosection
+    .container
+    .hero_section_wrapper
+    .info
+    .line-title
+    .small_text
+    p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  #herosection .container .hero_section_wrapper .info .assest-text {
+    font-size: 60px;
+  }
+  #playercard .container .playercard_Wrapper .row div .marginclass {
+    margin-top: 29px;
+  }
+  #playercard .container .playercard_Wrapper .row div .play_cart_Design {
+    width: 70%;
+    height: 95%;
+    border-radius: 163px;
+    margin: 0 auto;
+  }
+  #playercard .container .playercard_Wrapper .row div .yotube-click {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+  #playercard .container .playercard_Wrapper .row div .w_el h1 {
+    padding-bottom: 10px;
+    margin-left: 2px;
+  }
+  #playercard .container .playercard_Wrapper .row div .img-el {
+    top: 12%;
+    left: 10%;
+  }
+  #playercard .container .playercard_Wrapper .row div .img-el img {
+    width: 50%;
+  }
+  #NewArrival .button_style button {
+    padding: 10px;
+    margin: 5px;
+  }
+  .cards_el {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
