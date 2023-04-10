@@ -80,4 +80,63 @@
     width: 80%;
     margin: 0 auto;
   }
+  #BestSellers .BestSellersTop p,
+  #BestSellers .BestSellersTop p span,
+  .workshopTop h1,
+  .workshopTop h1 span,
+  .topcollectiontop .Topinfo h1,
+  .topcollectiontop .Topinfo h1 span {
+    font-size: 55px;
+  }
+
+  .feature-card .img {
+    height: 56px;
+  }
+  #auto_slider .slider_wrapper .slidertext span {
+    font-size: 12px;
+  }
+  #auto_slider .slider_wrapper .slidertext i {
+    font-size: 10px;
+  }
+  .topcollectiontop .topbtn button {
+    padding: 5px;
+  }
+  .card_gallery {
+    margin-top: 30px;
+  }
+
+  .card_gallery img {
+    width: 100%;
+  }
+  .card_slider .one {
+    width: 35%;
+    height: 75px;
+  }
+  .cardTop {
+    width: 100%;
+  }
+  .card_gallery {
+    height: 360px;
+  }
+  #Footer {
+    margin-top: 43px;
+    padding-top: 82px;
+    padding-bottom: 20px;
+  }
+  #Footer .footerWrapper {
+    flex-wrap: wrap;
+  }
+  #Footer .footerWrapper .footer_sites_one,
+  #Footer .footerWrapper .footer_sites_two,
+  #Footer .footerWrapper .footer_sites_three,
+  #Footer .footerWrapper .footer_sites_four {
+    width: 100%;
+    margin-left: -14px;
+  }
+  #Footer .footerWrapper .footer_sites_one{
+    margin-left: 20px;
+  }
+  #Footer .footerWrapper {
+    padding-bottom: 18px;
+  }
 }

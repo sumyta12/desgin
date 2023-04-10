@@ -129,7 +129,7 @@ function feedbackpeopleDisplay(items) {
   const dispay = items
     .map(function (item) {
       return `
-      <div class="col-lg-3 col-3">
+      <div class="col-lg-3 col-6">
       <div class="feature-card">
       <div class="img">
        <img src=${item.img}>
