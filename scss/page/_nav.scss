@@ -1,10 +1,10 @@
 @import "./../base/mixin/textdesgin";
 nav {
-  position: absolute;
+  position: fixed !important;
   width: 100%;
   z-index: 9999;
   border-bottom: 1px solid rgba(255, 255, 255, 0.0666666667);
-  background-color: #15141a !important;
+  background-color: rgb(21, 20, 26, 0.5) !important;
   .container {
     .navbar-brand {
       width: 280px;
@@ -32,18 +32,18 @@ nav {
     color: #fff;
   }
 }
-.ul_li_el{
-  li{
-    a{
+.ul_li_el {
+  li {
+    a {
       color: #fff;
       opacity: 0.5;
       &:hover {
         color: #fff;
       }
     }
-    button{
+    button {
       margin-left: 10px;
-      i{
+      i {
         color: #15141a;
         margin-right: 10px;
         margin-top: 5px;

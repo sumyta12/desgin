@@ -240,3 +240,7 @@ function buttonDisplay(items) {
     });
   });
 }
+
+const windowwidth = window;
+const windowheight = window.innerHeight;
+console.log(windowwidth,windowheight);
