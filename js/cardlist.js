@@ -222,10 +222,10 @@ function buttonDisplay(items) {
   const button_seletetor = document.querySelectorAll(".buttonel");
   button_seletetor.forEach(function (item) {
     item.addEventListener("click", function (e) {
-      console.log(  e.target.parentNode );
-       
       
       e.target.classList.toggle("active");
+     console.log(e.target.parentElement.children);
+     console.log(e.target.classList)
       const selectedata = items.filter(function (datas) {
         if (datas.category.includes(item.dataset.category)) {
           return item;
@@ -240,7 +240,3 @@ function buttonDisplay(items) {
     });
   });
 }
-
-const windowwidth = window;
-const windowheight = window.innerHeight;
-console.log(windowwidth,windowheight);
