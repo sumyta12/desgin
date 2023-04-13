@@ -1,4 +1,18 @@
 @import "./../base/mixin/textdesgin";
+.simmer{
+   visibility: visible;
+   opacity: 1;
+   width: 100%;
+   background-color: rgb(89, 0, 255,0.3);
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.simmar_hide{
+  display: none;
+}
 nav {
   position: fixed !important;
   width: 100%;

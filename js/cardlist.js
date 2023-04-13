@@ -120,11 +120,15 @@ const feedbackpeople = [
     price: "1,000",
   },
 ];
-window.addEventListener("DOMContentLoaded", function () {
-  cardistDisplay(cards_items);
-  feedbackpeopleDisplay(feedbackpeople);
-  buttonDisplay(cards_items);
+window.addEventListener("load", function () {
+  const loading = document.querySelector('#loading');
+  loading.classList.add("simmar_hide");
+  
 });
+
+cardistDisplay(cards_items);
+feedbackpeopleDisplay(feedbackpeople);
+buttonDisplay(cards_items);
 function feedbackpeopleDisplay(items) {
   const dispay = items
     .map(function (item) {
@@ -212,7 +216,7 @@ function buttonDisplay(items) {
     .map(function (item) {
       return `
         <button class='buttonel' data-category=${item}>
-        <i class="fa-sharp fa-solid fa-star"></i>${item}
+          <i class="fa-sharp fa-solid fa-star"></i> ${item}
         </button>
     `;
     })
@@ -222,10 +226,12 @@ function buttonDisplay(items) {
   const button_seletetor = document.querySelectorAll(".buttonel");
   button_seletetor.forEach(function (item) {
     item.addEventListener("click", function (e) {
-      
-      e.target.classList.toggle("active");
-     console.log(e.target.parentElement.children);
-     console.log(e.target.classList)
+      if (e.target.classList[0] === "fa-sharp") {
+        e.target.parentElement.classList.add("active");
+      } else {
+        e.target.classList.add("active");
+      }
+      console.log(e);
       const selectedata = items.filter(function (datas) {
         if (datas.category.includes(item.dataset.category)) {
           return item;

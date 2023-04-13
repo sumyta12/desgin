@@ -1,11 +1,13 @@
+@import "./../base/variable/variable";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #15141a !important;
+body {
+  background-color: $body-color !important;
 }
+
 ul,
 li {
   list-style-type: none;

@@ -70,13 +70,13 @@
     }
 
     .active {
-      background-color: #cef54b;
+      background-color: $btn-color;
       color: #000;
     }
   }
 }
 i {
-  color: #cef54b;
+  color: $btn-color;
 }
 .cards_el {
   border: 1px solid rgba(255, 255, 255, 0.1333333333);
@@ -97,7 +97,7 @@ i {
       position: absolute;
       top: 50%;
       z-index: 9999;
-      background-color: #cef54b;
+      background-color: $btn-color;
       left: 50%;
       transform: translate(-50%, -50%);
       opacity: 0;
@@ -118,13 +118,13 @@ i {
       color: white;
       opacity: 0.5;
       span {
-        color: #cef54b;
+        color: $btn-color;
       }
     }
   }
   transition: all 0.5s ease-in-out;
   &:hover {
-    border: 1px solid #cef54b;
+    border: 1px solid $btn-color;
   }
   &:hover .img_cover a {
     opacity: 1;

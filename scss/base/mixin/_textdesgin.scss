@@ -16,7 +16,7 @@
     font-size: 120px;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: 1px #cef54b;
+    -webkit-text-stroke: 1px $btn-color;
   
 }
 @mixin buttondesign(){
@@ -26,7 +26,7 @@
         display: inline-flex;
         text-align: center;
         justify-content: center;
-        background-color: #cef54b;
+        background-color: $btn-color;
         border: none;
         border-radius: 8px;
       
