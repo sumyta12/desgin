@@ -106,12 +106,20 @@ nav .container .navbar-brand img {
   opacity: 0;
   visibility: hidden;
   transition-delay: 0.3s;
+  top: 50%;
+  left: -30px;
   border-radius: 15px;
+}
+.ul_li_el li .homelist ul li {
+  margin-bottom: 10px;
 }
 .ul_li_el li .homelist ul li a {
   font-size: 15px;
   color: #15141a;
   text-decoration: none;
+}
+.ul_li_el li .homelist ul li:hover a {
+  border-bottom: 1px solid #15141a;
 }
 .ul_li_el li:hover .homelist {
   opacity: 1;
