@@ -1,16 +1,16 @@
 @import "./../base/mixin/textdesgin";
-.simmer{
-   visibility: visible;
-   opacity: 1;
-   width: 100%;
-   background-color: rgb(89, 0, 255,0.3);
-   text-align: center;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
+.simmer {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  background-color: rgb(89, 0, 255, 0.3);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.simmar_hide{
+.simmar_hide {
   display: none;
 }
 nav {
@@ -48,12 +48,39 @@ nav {
 }
 .ul_li_el {
   li {
+    position: relative;
     a {
       color: #fff;
       opacity: 0.5;
+
       &:hover {
         color: #fff;
       }
+    }
+    .homelist {
+      width: 140px;
+      position: absolute;
+      background-color: white;
+      padding: 20px 0;
+      transform: translateY(35%);
+      opacity: 0;
+      visibility: hidden;
+      transition-delay: 0.3s;
+
+      border-radius: 15px;
+      ul {
+        li {
+          a {
+            font-size: 15px;
+            color: #15141a;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    &:hover .homelist {
+      opacity: 1;
+      visibility: visible;
     }
     button {
       margin-left: 10px;

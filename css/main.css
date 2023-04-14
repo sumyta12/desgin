@@ -87,12 +87,35 @@ nav .container .navbar-brand img {
   color: #fff;
 }
 
+.ul_li_el li {
+  position: relative;
+}
 .ul_li_el li a {
   color: #fff;
   opacity: 0.5;
 }
 .ul_li_el li a:hover {
   color: #fff;
+}
+.ul_li_el li .homelist {
+  width: 140px;
+  position: absolute;
+  background-color: white;
+  padding: 20px 0;
+  transform: translateY(35%);
+  opacity: 0;
+  visibility: hidden;
+  transition-delay: 0.3s;
+  border-radius: 15px;
+}
+.ul_li_el li .homelist ul li a {
+  font-size: 15px;
+  color: #15141a;
+  text-decoration: none;
+}
+.ul_li_el li:hover .homelist {
+  opacity: 1;
+  visibility: visible;
 }
 .ul_li_el li button {
   margin-left: 10px;
@@ -715,4 +738,55 @@ i {
   #Footer .footerWrapper {
     padding-bottom: 18px;
   }
+}
+nav {
+  position: relative !important;
+  background-color: rgba(9, 9, 9, 0.2) !important;
+  color: black !important;
+  top: -25 !important;
+}
+
+#carosole-section {
+  margin-top: 84px !important;
+}
+
+.carousel-inner {
+  width: 90% !important;
+}
+
+.carousel-inner img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+  border-radius: 20px !important;
+}
+
+.carouselindicatorcss {
+  justify-content: end !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 17px !important;
+  height: 16px !important;
+  border-radius: 50%;
+}
+
+.carousel-caption {
+  left: 4% !important;
+  text-align: start !important;
+}
+
+.carddesgin {
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  border-left: 0px;
+  border-top: 0px;
+  padding-right: 30px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1333333333) !important;
+}
+
+.card_el_img {
+  height: 250px !important;
 }/*# sourceMappingURL=main.css.map */
